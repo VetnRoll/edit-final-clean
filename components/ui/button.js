@@ -1,0 +1,1 @@
+export const Button = (props) => <button {...props} style={{ padding: '8px', border: '1px solid gray', borderRadius: '6px', marginTop: '1rem' }}>{props.children}</button>;

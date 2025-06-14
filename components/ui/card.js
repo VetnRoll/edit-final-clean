@@ -1,0 +1,2 @@
+export const Card = ({ children }) => <div style={{ padding: '16px', border: '1px solid lightgray', borderRadius: '12px', marginBottom: '1rem' }}>{children}</div>;
+export const CardContent = ({ children }) => <div>{children}</div>;
